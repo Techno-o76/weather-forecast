@@ -42,5 +42,14 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 ## Snapshots:
 
 ### Home Page:
+<ing src = "https://github.com/Thanmai24/weather-forecast/blob/main/images/Home.png" alt=""/>
 
+### Home Page variation:
+<img src = "https://github.com/Thanmai24/weather-forecast/blob/main/images/home2.png" alt=""/>
+
+### Daily Forecast:
+<img src = "https://github.com/Thanmai24/weather-forecast/blob/main/images/DailyForecast.png" alt=""/>
+
+### Hourly Forecast:
+<img src = "https://github.com/Thanmai24/weather-forecast/blob/main/images/hourlyForecast.png" alt= "" />
 
