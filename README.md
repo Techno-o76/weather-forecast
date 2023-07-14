@@ -42,14 +42,18 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 ## Snapshots:
 
 ### Home Page:
-<ing src = "https://github.com/Thanmai24/weather-forecast/blob/main/images/Home.png" alt=""/>
+Overview of current weather conditions, including climate, temperature, wind speed, and humidity.
+<img src = "https://github.com/Thanmai24/weather-forecast/blob/main/images/Home.png" alt="" />
 
 ### Home Page variation:
+Dynamic background that changes based on real-time weather conditions and whether it's day or night.
 <img src = "https://github.com/Thanmai24/weather-forecast/blob/main/images/home2.png" alt=""/>
 
 ### Daily Forecast:
+Display of the weather forecast for the next 5 days, providing a summary of each day's weather conditions.
 <img src = "https://github.com/Thanmai24/weather-forecast/blob/main/images/DailyForecast.png" alt=""/>
 
 ### Hourly Forecast:
+Hourly breakdown of the weather forecast for a specific day, showing weather conditions in 8 intervals with a 3-hour gap.
 <img src = "https://github.com/Thanmai24/weather-forecast/blob/main/images/hourlyForecast.png" alt= "" />
 
