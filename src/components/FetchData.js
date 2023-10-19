@@ -17,7 +17,7 @@ function FetchData() {
   useEffect(() => {
     axios.get(`https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&units=metric&appid=4031ecb41488b71e5a538efbf2db03d9`)
       .then(res => {
-        // console.log(res);
+        console.log(res.data);
         setTdata(res.data.list);
         // console.log(tdata);
       })
@@ -28,6 +28,7 @@ function FetchData() {
 
   const groupedData = {};
   const icons = {};
+  console.log(tdata);
   tdata.forEach((data) => {
     const date = new Date(data.dt_txt).toLocaleDateString();
     if (!groupedData[date]) {
@@ -38,7 +39,7 @@ function FetchData() {
     }
     groupedData[date].push(data);
   })
-  // console.log(groupedData);
+  console.log(groupedData);
   const avgtemp = {};
   const avgws = {};
   for (const date in groupedData) {
@@ -75,7 +76,7 @@ function FetchData() {
           </div>
           <div className='avgws'>{avgwindspeed.toFixed(2)} m/s</div>
           <div>
-            <Link to={`/hourly?data=${encodeURIComponent(JSON.stringify(groupedData))}&date=${dateString}`}>
+            <Link to={`/hourly?data=${encodeURIComponent(JSON.stringify(groupedData))}&date=${encodeURIComponent(JSON.stringify(dateString))}`}>
               <button class="hourlyfc">Hourly Forecast</button>
             </Link>
           </div>

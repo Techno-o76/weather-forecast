@@ -27,7 +27,6 @@ function Ui(props) {
               <div className='heading'>Windspeed</div>
               <div className='value'>{props.ws} m/s</div>
             </div>
-            
           </div>
           <div className='forecast'>
             <Link to={`/about?lat=${props.lat}&lon=${props.lon}`}>

@@ -32,7 +32,6 @@ function FetchData2() {
         setLongi(res.data[0].lon);
         setPlace(res.data[0].name + ", " + res.data[0].state);
 
-        // Move the following Axios request inside the first .then() block
         axios.get(`https://api.openweathermap.org/data/2.5/weather?lat=${res.data[0].lat}&lon=${res.data[0].lon}&units=metric&appid=4031ecb41488b71e5a538efbf2db03d9`)
           .then((res) => {
             setClimate(res.data.weather[0].description);
@@ -41,9 +40,6 @@ function FetchData2() {
             setTemp(res.data.main.temp);
             setHumidity(res.data.main.humidity);
             setWindSpeed(res.data.wind.speed);
-            // console.log(res);
-
-            // Move the code related to 'icon' variable here
             // console.log(res.data.main.temp);
             if (icon.charAt(icon.length - 1) === "d") {
               // console.log("day");

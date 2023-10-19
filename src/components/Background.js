@@ -58,7 +58,7 @@ function Ui(props) {
 
     localStorage.setItem('background', document.body.style.backgroundImage);
   }, [props.climate, props.day, props.mis, props.weather])
-
+  
   return (
     <div>
       {

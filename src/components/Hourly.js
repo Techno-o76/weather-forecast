@@ -5,9 +5,10 @@ function Hourly() {
     const location = useLocation();
     const searchParams = new URLSearchParams(location.search);
     const data = searchParams.get('data');
-    const date = searchParams.get('date');
+    const wpdate = searchParams.get('date');
 
     const parsedData = JSON.parse(decodeURIComponent(data));
+    const date = JSON.parse(decodeURIComponent(wpdate));
     // console.log(parsedData[date]);
     let res = parsedData[date];
     let n = res.length;
