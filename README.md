@@ -39,32 +39,25 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Snapshots:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Home Page:
+Overview of current weather conditions, including climate, temperature, wind speed, and humidity.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<img src = "https://github.com/Thanmai24/weather-forecast/blob/main/images/Home.png" alt="" />
 
-### Code Splitting
+### Home Page variation:
+Dynamic background that changes based on real-time weather conditions and whether it's day or night.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<img src = "https://github.com/Thanmai24/weather-forecast/blob/main/images/home2.png" alt=""/>
 
-### Analyzing the Bundle Size
+### Daily Forecast:
+Display of the weather forecast for the next 5 days, providing a summary of each day's weather conditions.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<img src = "https://github.com/Thanmai24/weather-forecast/blob/main/images/DailyForecast.png" alt=""/>
 
-### Making a Progressive Web App
+### Hourly Forecast:
+Hourly breakdown of the weather forecast for a specific day, showing weather conditions in 8 intervals with a 3-hour gap.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<img src = "https://github.com/Thanmai24/weather-forecast/blob/main/images/hourlyForecast.png" alt= "" />
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
